@@ -59,4 +59,26 @@ def encrypt(msg, n=5):
 msg = input("Please enter character string:")
 print('Resultent characters after shifting all characters by 5: %s'%(encrypt(msg)))
 print('*********************************************************************************************************************')
-######################## End of Problem.5 ########################################################################
+######################## End of Problem.2 ########################################################################
+#Problem-3: A list comprehension expression that takes a ~200-word paragraph, and checks whether it has any of the swear words mentioned
+#in https://github.com/RobertJGabriel/Google-profanity-words/blob/master/list.txt
+
+######################## End of Problem.2 ########################################################################
+#Problem-4: Using reduce function:
+#Sub-1:add only even numbers in a list
+print("Problem-4(Sub-1): Using reduce function add only even numbers in a list")
+print("We have a list of numbers: n = [1,2,3,4,5,6,7,8,9,10]")
+a = [1,2,3,4,5,6,7,8,9,10]
+k = reduce(lambda x,y:x+y,list(filter(lambda n:n%2==0,a)))
+print("Sum of only even numbers is: %d" %k)
+
+#Sub-2:find the biggest character in a string (printable ASCII characters)
+#Sub-3:adds every 3rd number in a list
+
+######################## End of Problem.2 ########################################################################
+#Problem-5
+
+######################## End of Problem.2 ########################################################################
+#Problem-6
+
+######################## End of Problem.2 ########################################################################
