@@ -35,20 +35,20 @@ print("Result after adding even and odd list")
 print([x+y for x,y in zip(list_even,list_odd)])
 print('*********************************************************************************************************************')
 ######################## End of Problem.2 ########################################################################
-#Sub-2:
-#strips every vowel from a string provided (tsai>>t s)
+#Sub-2: strips every vowel from a string provided (tsai>>t s)
+print("Problem-2:Sub-2: strips every vowel from a string provided (tsai>>t s)")
+string = input("Please enter a string:")
+strip_vowel = "".join([c for c in string if c not in ["a","e","i","o","u"]])
+print("After Strip every vowel the string became: %s" %strip_vowel)
 
 print('*********************************************************************************************************************')
 ######################## End of Problem.3 ########################################################################
-
-#Sub-3:
-#acts like a sigmoid function for a 1D array
+#Sub-3:#acts like a sigmoid function for a 1D array
+print("Problem-2:Sub-3:#acts like a sigmoid function for a 1D array")
 
 print('*********************************************************************************************************************')
 ######################## End of Problem.4 ########################################################################
-
-#Sub-4:
-#takes a small character string and shifts all characters by 5 (handle boundary conditions) tsai>>yxfn
+#Sub-4:#takes a small character string and shifts all characters by 5 (handle boundary conditions) tsai>>yxfn
 print("Problem-2:Sub-4 takes a small character string and shifts all characters by 5 (handle boundary conditions)")
 
 abc = 'abcdefghijklmnopqrstuvwxyz'
@@ -62,23 +62,38 @@ print('*************************************************************************
 ######################## End of Problem.2 ########################################################################
 #Problem-3: A list comprehension expression that takes a ~200-word paragraph, and checks whether it has any of the swear words mentioned
 #in https://github.com/RobertJGabriel/Google-profanity-words/blob/master/list.txt
-
+print("Problem-3: A list comprehension expression that takes a ~200-word paragraph, and checks whether it has any of the swear words mentioned \
+in https://github.com/RobertJGabriel/Google-profanity-words/blob/master/list.txt")
+print('*********************************************************************************************************************')
 ######################## End of Problem.2 ########################################################################
 #Problem-4: Using reduce function:
 #Sub-1:add only even numbers in a list
-print("Problem-4(Sub-1): Using reduce function add only even numbers in a list")
+print("Problem-4:Sub-1: Using reduce function add only even numbers in a list")
 print("We have a list of numbers: n = [1,2,3,4,5,6,7,8,9,10]")
 a = [1,2,3,4,5,6,7,8,9,10]
 k = reduce(lambda x,y:x+y,list(filter(lambda n:n%2==0,a)))
 print("Sum of only even numbers is: %d" %k)
-
+print('*********************************************************************************************************************')
 #Sub-2:find the biggest character in a string (printable ASCII characters)
+print("Problem-4:Sub-2:find the biggest character in a string (printable ASCII characters)")
+st = input("Please enter a string:")
+m = max(st)
+print("biggest character in a string (printable ASCII characters) is %s" %m)
+print('*********************************************************************************************************************')
 #Sub-3:adds every 3rd number in a list
-
-######################## End of Problem.2 ########################################################################
+print("Problem-4:Sub-3:adds every 3rd number in a list")
+print("adds every 3rd number in a list")
+print("We have a list of numbers: n = [1,2,3,4,5,6,7,8,9,10]")
+print("Every third number in this list starting for 1 is [1,4,7,10] and there sum is: 22")
+n = [1,2,3,4,5,6,7,8,9,10]
+t = n[::3]
+s = reduce(lambda x,y:x+y,t)
+print("Sum every 3rd number in a list n = [1,2,3,4,5,6,7,8,9,10] is:%d" %s)
+print('*********************************************************************************************************************')
+######################## End of Problem.4 ########################################################################
 #Problem-5
-
-######################## End of Problem.2 ########################################################################
+print('*********************************************************************************************************************')
+######################## End of Problem.5 ########################################################################
 #Problem-6
-
-######################## End of Problem.2 ########################################################################
+print('*********************************************************************************************************************')
+######################## End of Problem.6########################################################################
